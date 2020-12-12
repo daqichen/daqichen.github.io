@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://daqichen.github.io/sitemap.xml
+Host: https://daqichen.github.io
