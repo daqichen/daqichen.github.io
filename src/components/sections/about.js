@@ -60,7 +60,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--navy-shadow);
 
     &:hover,
     &:focus {
@@ -82,7 +82,7 @@ const StyledPic = styled.div`
       position: relative;
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      filter: grayscale(10%) opacity(100%);
       transition: var(--transition);
     }
 
@@ -118,7 +118,7 @@ const About = () => {
     query {
       avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
+          fluid(maxWidth: 550, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
@@ -132,7 +132,20 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'Java',
+    'Python',
+    'C',
+    'JavaScript',
+    'HTML/CSS',
+    'Unix/Linux',
+    'R',
+    'Power BI',
+    'Tableau',
+    'Google Data Studio',
+    'MS Excel',
+    'Git',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,22 +154,40 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>
+              Hi~ I'm Jen, a sophomore studying CS &amp; Stats at{' '}
+              <a href="https://unc.edu">UNC-Chapel Hill</a>.
+            </p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
+              I'm passionate about designing interactive websites, presenting data in a meaningful
+              way, and making an impact. At the same time, I love expressing creativity through{' '}
+              <a href="https://www.instagram.com/dacheese_origami">artworks</a> as a paper artist!
+              {/* I enjoy creating things that live on the internet, whether that be websites,
               applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              pixel-perfect, performant experiences. */}
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              {/* At UNC, I am currently on the exec board for <a href="https://publichealth360.wixsite.com/ph360">PH360</a> as the Tech Chair 
+              and <a href="http://www.dukeunccls.com/">Duke-UNC CLS</a> to plan the upcoming virtual conference. 
+               */}
+              Prior to my college career, software engineering seemed like a foreign subject to me,
+              and if I am being honest, it still feels that way on some days. However, what changed
+              is my attitude towards the challenge. Like a complex origami model, a coding project
+              requires hard work, applying knowledge, being resourceful, and a humble spirit.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>
+              With a Pinch of Patience, a Dash of Creativity, a Spoonful of Planning, and a Heap of
+              Love, my coding journey continues... as I join{' '}
+              <a href="https://www.lexisnexis.com/en-us/home.page">
+                LexisNexis Legal &amp; Professional
+              </a>{' '}
+              as a SWE intern this upcoming summer.
+            </p>
+
+            {/* <p>Here are a few technologies I've been working with recently:</p> */}
           </div>
 
           <ul className="skills-list">

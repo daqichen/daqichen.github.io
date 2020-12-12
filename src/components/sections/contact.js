@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import { srConfig, email } from '@config';
 import sr from '@utils/sr';
+// import { attempt } from 'lodash';
 
 const StyledContactSection = styled.section`
   max-width: 600px;
@@ -46,14 +47,12 @@ const Contact = () => {
 
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="numbered-heading overline">What’s Next?</h2>
+      <h2 className="numbered-heading overline">AND... if you'd like to</h2>
 
       <h2 className="title">Get In Touch</h2>
 
-      <p>
-        Although I'm not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I'll try my best to get back to you!
-      </p>
+      <p>I am always open to new opportunities to learn &amp; grow!</p>
+      <p>Whether you have a question or just want to say hi, my inbox is always open &lt;3</p>
 
       <a className="email-link" href={`mailto:${email}`}>
         Say Hello

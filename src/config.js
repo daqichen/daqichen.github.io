@@ -1,27 +1,35 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  siteTitle: 'Daqi (Jen) Chen | Software Engineer & Paper Artist',
+  siteDescription:
+    'Jen Chen is an aspiring software engineer with experiences in frontend development, data modeling & visualization, healthtech consulting, and advanced origami : )',
+  siteKeywords:
+    'Daqi Chen, Daqi, Chen, Jen, Daqi (Jen) Chen, Jen Chen, Jen, computer science, statistics, data scientist, software engineer, front-end engineer, web developer, javascript, R, java, C, python, unc chapel hill',
+  siteUrl: 'https://daqichen.github.io',
+  image: '/og.png',
+  email: 'daqichen@live.unc.edu',
+  instagramHandle: '@jenniferchen_d',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://github.com/daqichen',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/daqi-jennifer-chen',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      name: 'Tableau',
+      url: 'https://public.tableau.com/profile/daqi.chen',
     },
+    {
+      name: 'Instagram',
+      url: 'https://www.instagram.com/dacheese_origami',
+    },
+    // {
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/chen_daqi',
+    // },
   ],
 
   navLinks: [
