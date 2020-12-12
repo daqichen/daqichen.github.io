@@ -2,18 +2,18 @@
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Daqi (Jen) Chen <daqichen@live.unc.edu>",
+  "author": "Daqi <daqichen@live.unc.edu> (Jen)",
   "homepage": "https://daqichen.github.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/bchiang7/v4.git"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d build",
+    "deploy": "gatsby build && gh-pages -d public -b main",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -54,6 +54,7 @@
     "gatsby-source-filesystem": "^2.1.40",
     "gatsby-transformer-remark": "^2.6.39",
     "gatsby-transformer-sharp": "^2.3.7",
+    "gh-pages": "^3.1.0",
     "lodash": "^4.17.19",
     "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
@@ -77,5 +78,9 @@
     "husky": "^4.2.3",
     "lint-staged": "^10.1.2",
     "prettier": "^2.0.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/bchiang7/v4/issues"
+  },
+  "main": "gatsby-browser.js"
 }
