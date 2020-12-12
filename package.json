@@ -3,6 +3,7 @@
   "description": "Personal Website V4",
   "version": "1.0.0",
   "author": "Daqi (Jen) Chen <daqichen@live.unc.edu>",
+  "homepage": "https://daqichen.github.io",
   "repository": {
     "type": "git",
     "url": "https://github.com/bchiang7/v4"
