@@ -1,11 +1,12 @@
 ---
 date: '2020-11-01'
-title: 'Incoming Student Consulting'
+title: 'Student Consultant'
 company: 'STAR Program'
 location: 'UNC Kenan Flagler Business School'
-range: 'January 2021'
+range: 'January - May 2021'
 url: 'https://www.kenan-flagler.unc.edu/star/'
 ---
 
-- "The UNC Kenan-Flagler STAR program matches teams of the brightest MBA and Undergraduate Business students with corporate partners to solve their complex challenges. In this experiential program, students advance their professional skills and readiness for today’s dynamic business environment. Companies benefit from the STAR consulting services and our commitment to partner with regional, U.S. and global businesses."
-- To be continued...
+- Collaborated with 4 MBA and 1 other undergrad to consult a RTC-based biotech incubator.
+- Applied <b>regression modeling</b> and <b>clustering analysis</b> in <b>R</b> and <b>Excel</b>.
+- Recommended a pricing model for the next company expansion initiative and revisions to current pricing that aims to increase revenue by <b>over 10%</b> over 12 months.

@@ -116,7 +116,7 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "HeadshotNew.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 550, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -140,9 +140,9 @@ const About = () => {
     'HTML/CSS',
     'Unix/Linux',
     'R',
-    'Power BI',
+    'SQL',
     'Tableau',
-    'Google Data Studio',
+    'Power BI',
     'MS Excel',
     'Git',
   ];
@@ -155,7 +155,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi~ I'm Jen, a sophomore studying CS &amp; Stats at{' '}
+              Hi~ I'm Jen, a junior studying CS &amp; Stats at{' '}
               <a href="https://unc.edu">UNC-Chapel Hill</a>.
             </p>
 
@@ -180,11 +180,13 @@ const About = () => {
 
             <p>
               With a Pinch of Patience, a Dash of Creativity, a Spoonful of Planning, and a Heap of
-              Love, my coding journey continues... as I join{' '}
+              Love, my coding journey continues... As I close in on my SWE internship at{' '}
               <a href="https://www.lexisnexis.com/en-us/home.page">
                 LexisNexis Legal &amp; Professional
-              </a>{' '}
-              as a SWE intern this upcoming summer.
+              </a>
+              {''}, I am looking forward to joining{' '}
+              <a href="https://www.un.org/en/desa">DESA at United Nations</a> as a Statistician
+              Intern this Fall.
             </p>
 
             {/* <p>Here are a few technologies I've been working with recently:</p> */}

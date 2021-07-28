@@ -1,11 +1,12 @@
 ---
 date: '2021-05-17'
-title: 'Incoming Software Engineering Intern'
+title: 'Software Engineering Intern'
 company: 'LexisNexis'
 location: 'Raleigh, NC'
-range: 'May 2021'
+range: 'May 2021 - Present'
 url: 'https://www.lexisnexis.com/en-us/home.page'
 ---
 
-- "LexisNexis Legal & Professional is a leading global provider of content and technology solutions that enable professionals in legal, corporate, tax, government, academic and non-profit organizations to make informed decisions and achieve better business outcomes."
-- To be continued...
+- Enhanced AdminTool, an internal tool, using <b>Java, JSP, Servlets, Struts framework and PL/SQL</b>.
+- Implemented features to automate PL/SQL changes in the back-end using <b>JDBC and Hibernate</b>.
+- Hosted AdminTool Server on <b>AWS</b> using the CFT templates based on other running services.
