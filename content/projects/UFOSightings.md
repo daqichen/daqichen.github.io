@@ -1,13 +1,13 @@
 ---
-date: '1'
+date: '2019-08-01'
 title: 'UFO Sightings'
-cover: './UFO.png'
 github: 'https://github.com/daqichen/UFO-Sightings'
-external: 'https://daqichen.github.io/UFO-Sightings/'
+# external: 'https://github.com/daqichen/UFO-Sightings'
 tech:
   - R/RStudio
   - rmarkdown
   - HTML widgets
+# company: GoLeafe
 showInProjects: true
 ---
 

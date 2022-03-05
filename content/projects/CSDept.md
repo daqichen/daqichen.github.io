@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '2020-06-02'
 title: 'UNC CS Department Portal'
 cover: './RTC.png'
 github: 'https://github.com/cssgunc/CSPortal'

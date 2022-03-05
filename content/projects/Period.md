@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2020-03-19'
 title: 'And That’s On PERIOD!'
 cover: './demo.png'
 github: 'https://github.com/daqichen/GirlsHooHack2020'
