@@ -52,9 +52,9 @@ const Hero = () => {
   const three = <h3 className="big-heading">I transform data into solutions.</h3>;
   const four = (
     <p>
-      I'm an aspiring software engineer interning at{' '}
-      <a href="https://www.un.org/en/desa">United Nations</a> with experiences in full stack
-      development, NLP &amp; deep learning modeling, and advanced origami : )
+      I'm an aspiring software engineer joining{' '}
+      <a href="https://www.goldmansachs.com/">Goldman Sachs</a> with experiences in full stack
+      web development, NLP &amp; deep learning modeling, and advanced origami : )
       {/* I'm a software engineer based in Boston, MA specializing in building (and occasionally
       designing) exceptional websites, applications, and everything in between. */}
     </p>

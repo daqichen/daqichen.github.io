@@ -116,7 +116,7 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "HeadshotNew.jpg" }) {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "HeadshotNew.jpeg" }) {
         childImageSharp {
           fluid(maxWidth: 550, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -136,13 +136,14 @@ const About = () => {
     'Java',
     'Python',
     'C',
-    'JavaScript',
-    'HTML/CSS',
+    'ReactJS',
+    'HTML/CSS/SCSS',
     'Unix/Linux',
     'R',
+    'Terraform',
+    'AWS',
     'SQL',
     'Tableau',
-    'Power BI',
     'MS Excel',
     'Git',
   ];
@@ -155,7 +156,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi~ I'm Jen, a junior studying CS &amp; Stats at{' '}
+              Hi~ I'm Jen, a senior studying CS &amp; Stats at{' '}
               <a href="https://unc.edu">UNC-Chapel Hill</a>.
             </p>
 
@@ -180,14 +181,12 @@ const About = () => {
 
             <p>
               With a Pinch of Patience, a Dash of Creativity, a Spoonful of Planning, and a Heap of
-              Love, my coding journey continues... As I close in on my internship with{' '}
-              <a href="https://www.un.org/en/desa">DESA at United Nations</a>
-              {''}, I am looking forward to joining{' '}
-              <a href="https://www.goldmansachs.com/">Goldman Sachs</a> as an Engineering Intern
-              this Summer in their NYC Office.
+              Love, my coding journey continues... I am looking forward to joining{' '}
+              <a href="https://www.goldmansachs.com/">Goldman Sachs</a> full time as an Engineering Analyst
+              in their NYC Office.
             </p>
 
-            {/* <p>Here are a few technologies I've been working with recently:</p> */}
+            <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">
