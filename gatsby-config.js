@@ -9,12 +9,65 @@ module.exports = {
     twitterUsername: config.instagramHandle,
   },
   plugins: [
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'DaqiChen',
+        short_name: 'DaqiChen',
+        start_url: '/',
+        background_color: config.colors.darkNavy,
+        theme_color: config.colors.navy,
+        display: 'minimal-ui',
+        icon: 'src/images/logo.png',
+      },
+    },
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'content',
+        path: `${__dirname}/content/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/content/posts`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/content/projects`,
+      },
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            // https://www.gatsbyjs.org/packages/gatsby-remark-external-links
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              target: '_blank',
+              rel: 'nofollow noopener noreferrer',
+            },
+          },
           {
             // https://www.gatsbyjs.org/packages/gatsby-remark-images
             resolve: 'gatsby-remark-images',
@@ -23,14 +76,6 @@ module.exports = {
               linkImagesToOriginal: true,
               quality: 90,
               tracedSVG: { color: config.colors.green },
-            },
-          },
-          {
-            // https://www.gatsbyjs.org/packages/gatsby-remark-external-links
-            resolve: 'gatsby-remark-external-links',
-            options: {
-              target: '_blank',
-              rel: 'nofollow noopener noreferrer',
             },
           },
           {
@@ -100,51 +145,6 @@ module.exports = {
             },
           },
         ],
-      },
-    },
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-styled-components`,
-    `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: 'DaqiChen',
-        short_name: 'DaqiChen',
-        start_url: '/',
-        background_color: config.colors.darkNavy,
-        theme_color: config.colors.navy,
-        display: 'minimal-ui',
-        icon: 'src/images/logo.png',
-      },
-    },
-    `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'content',
-        path: `${__dirname}/content/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `posts`,
-        path: `${__dirname}/content/posts`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `projects`,
-        path: `${__dirname}/content/projects`,
       },
     },
     {

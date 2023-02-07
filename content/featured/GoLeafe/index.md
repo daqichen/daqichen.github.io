@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'GoLeafe Website'
-cover: './goleafe.png'
+cover: './GoLeafe.png'
 github: ''
 external: 'https://goleafe.com/'
 tech:

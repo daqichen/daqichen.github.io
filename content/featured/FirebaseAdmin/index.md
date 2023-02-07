@@ -1,7 +1,7 @@
 ---
 date: '6'
 title: 'Firebase Admin Console'
-cover: './firebaseadmin.png'
+cover: './firebaseAdmin.png'
 github: 'https://github.com/cssgunc/CSPortal'
 external: 'https://daqichen.github.io/Firebase_Admin_Console_UI/'
 tech:
