@@ -49,14 +49,11 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Daqi (Jen) Chen.</h2>;
-  const three = <h3 className="big-heading">I transform data into solutions.</h3>;
+  const three = <h3 className="big-heading">I bring creativity to life in code and origami.</h3>;
   const four = (
     <p>
-      I'm an aspiring software engineer joining{' '}
-      <a href="https://www.goldmansachs.com/">Goldman Sachs</a> with experiences in full stack
-      web development, NLP &amp; deep learning modeling, and advanced origami : )
-      {/* I'm a software engineer based in Boston, MA specializing in building (and occasionally
-      designing) exceptional websites, applications, and everything in between. */}
+      I'm a software engineer based in New York City with experiences in full stack web development,
+      LLM usecases via RAG pipeline, NLP &amp; deep learning modeling, and tessellation origami : )
     </p>
   );
   const five = (

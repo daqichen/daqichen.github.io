@@ -6,7 +6,7 @@ module.exports = {
     'Daqi Chen, Daqi, Chen, Jen, Daqi (Jen) Chen, Jen Chen, Jen, computer science, statistics, data scientist, software engineer, front-end engineer, web developer, javascript, R, java, C, python, unc chapel hill',
   siteUrl: 'https://daqichen.github.io',
   image: '/og.png',
-  email: 'daqichen@live.unc.edu',
+  email: 'daqichen@alumni.unc.edu',
   instagramHandle: '@jenniferchen_d',
 
   socialMedia: [

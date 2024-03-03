@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Audit Analytics Case Study'
-cover: './CDC.png'
+cover: './cdc.png'
 # github: 'https://github.com/daqichen/STOR455'
 tableau: 'https://public.tableau.com/shared/M9GSJ2C8B?:display_count=y&:origin=viz_share_link'
 external: 'https://github.com/daqichen/STOR455'

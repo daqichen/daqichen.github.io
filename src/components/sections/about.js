@@ -133,18 +133,17 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Java',
-    'Python',
-    'C',
     'ReactJS',
-    'HTML/CSS/SCSS',
-    'Unix/Linux',
-    'R',
+    'Vite',
+    'NextJS',
+    'Webpack/Rollup',
+    'SCSS/TailwindCss',
+    'Java Springboot',
+    'Python Flask',
     'Terraform',
+    'GraphQL',
+    'Unix/Linux',
     'AWS',
-    'SQL',
-    'Tableau',
-    'MS Excel',
     'Git',
   ];
 
@@ -156,17 +155,16 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi~ I'm Jen, a senior studying CS &amp; Stats at{' '}
-              <a href="https://unc.edu">UNC-Chapel Hill</a>.
+              Hi~ I'm Jen, a Software Engineer at{' '}
+              <a href="https://www.linkedin.com/in/daqi-jennifer-chen">Goldman Sachs</a> and an{' '}
+              <a href="https://www.instagram.com/dacheese_origami">origami artist</a>.
             </p>
 
             <p>
-              I'm passionate about designing interactive websites, presenting data in a meaningful
-              way, and making an impact. At the same time, I love expressing creativity through{' '}
-              <a href="https://www.instagram.com/dacheese_origami">artworks</a> as a paper artist!
-              {/* I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences. */}
+              I'm passionate about designing websites that foster meaningful user engagement ,
+              understanding the moving pieces to make it scalable, from the backend databases, to
+              the data pipelines, to DevOps, to choices of frontend frameworks and E2E testing, and
+              making an impact or addressing a problem.
             </p>
 
             <p>
@@ -175,15 +173,15 @@ const About = () => {
                */}
               Prior to my college career, software engineering seemed like a foreign subject to me,
               and if I am being honest, it still feels that way on some days. However, what changed
-              is my attitude towards the challenge. Like a complex origami model, a coding project
-              requires hard work, applying knowledge, being resourceful, and a humble spirit.
+              is my attitude towards the challenge. Recognizing the ever-changing, ever-growing
+              nature of software engineering as what makes it exciting, rewarding. Like a complex
+              origami model, it requires hard work, applying knowledge, being resourceful, and a
+              humble spirit.
             </p>
 
             <p>
               With a Pinch of Patience, a Dash of Creativity, a Spoonful of Planning, and a Heap of
-              Love, my coding journey continues... I am looking forward to joining{' '}
-              <a href="https://www.goldmansachs.com/">Goldman Sachs</a> full time as an Engineering Analyst
-              in their NYC Office.
+              Love, my coding journey continues...
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
